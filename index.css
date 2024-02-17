@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body{
     background: #000000;
     /*background-image: url('./Assets/Images/image.png');*/
@@ -6,6 +8,10 @@ body{
     background-position-x: 13rem;
     background-blend-mode: overlay;
     overflow-x: hidden;
+}
+
+.header-font{
+    font-family: "Open Sans", sans-serif;
 }
 
 .venue{
@@ -868,7 +874,7 @@ width: 300px;
     background: #F3D1E5;
 }
 
-.footer{
+.contact-section{
     width: 150%;
     height: 375px;
     margin-top: 20rem;
